@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --production
+RUN npm install --omit=optional && npm install -g typescript
 
 COPY . .
 
