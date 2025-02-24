@@ -8,6 +8,8 @@ RUN npm install --production
 
 COPY . .
 
+RUN npm run build
+
 EXPOSE 8000
 
-CMD ["node", "src/index.ts"]
+CMD ["node", "dist/index.js"]
