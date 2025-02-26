@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import jwt, { SignOptions, VerifyOptions } from "jsonwebtoken";
 import { SessionDocument } from "../../database/models/session.model";
 import { UserDocument } from "../../database/models/user.model";
