@@ -89,7 +89,7 @@ export default function Login() {
                       Email
                     </FormLabel>
                     <FormControl>
-                      <Input placeholder="subscribeto@channel.com" {...field} />
+                      <Input placeholder="contact@annajohnson.com" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -130,40 +130,8 @@ export default function Login() {
               Sign in
               <ArrowRight />
             </Button>
-
-            <div className="mb-6 mt-6 flex items-center justify-center">
-              <div
-                aria-hidden="true"
-                className="h-px w-full bg-[#eee] dark:bg-[#d6ebfd30]"
-                data-orientation="horizontal"
-                role="separator"
-              ></div>
-              <span className="mx-4 text-xs dark:text-[#f1f7feb5] font-normal">
-                OR
-              </span>
-              <div
-                aria-hidden="true"
-                className="h-px w-full bg-[#eee] dark:bg-[#d6ebfd30]"
-                data-orientation="horizontal"
-                role="separator"
-              ></div>
-            </div>
           </form>
         </Form>
-        <Button variant="outline" className="w-full h-[40px]">
-          Email magic link
-        </Button>
-        <p className="text-xs dark:text-slate- font-normal mt-7">
-          By signing in, you agree to our{" "}
-          <a className="text-primary hover:underline" href="#">
-            Terms of Service
-          </a>{" "}
-          and{" "}
-          <a className="text-primary hover:underline" href="#">
-            Privacy Policy
-          </a>
-          .
-        </p>
       </div>
     </main>
   );
